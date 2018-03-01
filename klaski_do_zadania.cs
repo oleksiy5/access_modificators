@@ -4,6 +4,7 @@
     public class Head
     {
         private string _behaviorCommand;
+
         public Head(string command)
         {
             if (ValidCommand(command))
