@@ -9,7 +9,8 @@
         {
             if (ValidCommand(command))
                 _behaviorCommand = command;
-            else _behaviorCommand = "SLEEP";
+            else
+                _behaviorCommand = "SLEEP";
         }
 
         private bool ValidCommand(string command)
